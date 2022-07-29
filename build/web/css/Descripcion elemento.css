@@ -1,0 +1,213 @@
+
+.descripcion{
+    margin-top: 3%;
+    background-color: #062749;
+    width: 50%;
+    height: 50%;
+    float: left;
+    text: justify;
+}
+.contenedorimagen{
+    margin-top: 3%;
+    float: left;
+    width: 50%;
+}
+.contenedoruno{
+    width: auto;
+    height: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.Titulocontenido{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+.Titulogenero{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+}
+.Nombreactores{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+.Nombrecreador{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+.synopsis{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+}
+.synopsisres{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);    
+}
+.temporada{
+    border-color: white;
+    background-color: rgb(0, 153, 255);
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+}
+.tempdown{
+    height: 25%;
+    width: 10%;
+    float: left;
+}
+.contenedordebotones{
+    height: 25%;
+    width: 100%;
+}
+.temporadas{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-family: Sunflower;
+    min-width: 160px;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.temporadas a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.temporadas a:hover{
+    background-color: #ddd;
+}
+.tempdown:hover .temporadas{
+    display: block;
+}
+.tempdown:hover .temporada{
+    background-color: rgb(10, 114, 184);
+}
+.imagenthewitcher{
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    
+}
+.rayanegra{
+    border: 1px solid #0069f3;
+}
+.episodios{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+.minuatura{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 1%;
+    float: left;
+    width: 22%;
+}
+.miniatura{
+    margin: 0%;
+    list-style-type: none;
+    width: 100%;
+}
+.cajaminiatura{
+    height: 100%;
+}
+.imagenmin{
+    width: 275px;
+    height: 150px;
+}
+
+.milista {
+    border-color: white;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Sunflower;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    background-color: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
+    border: 2px solid #e7e7e7;
+}
+.milista:hover {
+    background-color: #2980B9;
+}
+.nombrevid{
+    text-decoration: none;
+    color: white;
+    font-family: Sunflower;
+    font-size: 20px;
+    text-align: left;
+}
+
+.imagenmin{
+    width: 300px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-size: cover;
+}
+.imagenmin:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.nombrevid{
+  display:inline-block;
+  position:relative;
+}
+.nombrevid > h5 {
+  position:absolute;
+  z-index:-1;
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+
+.vid{
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    display: block;
+}

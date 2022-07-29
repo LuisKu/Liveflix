@@ -1,0 +1,99 @@
+.resultados{
+    margin: 5%;
+    margin-top: 7%;
+}
+.portada{
+    padding: 1%;
+    float: left;
+    width: 23%;
+    overflow:hidden;
+}
+.portada img{
+    position: relative;
+    width: 275px;
+    height: 150px;
+}
+.portada:hover .img {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+section{
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+}
+h3{
+    color: white;
+    float: left;
+}
+h1{
+    color: white;
+    margin: 0px;
+}
+h1 a{
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    text-align: left;
+    list-style: none;
+}
+.peliculas{
+    margin: 0%;
+    margin-top: 6%;
+}
+.peliculas .portada{
+    padding: 1%;
+    padding-top: 0%;
+    float: left;
+    width: 22%;
+    overflow:hidden;
+}
+.tipos{
+    margin: 0%;
+    margin-bottom: 2%;
+}
+.gen{
+    position: absolute;
+    margin: 65px;
+    margin-left: 75%;
+}
+br{
+    clear: both;
+}
+.gen li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:20px 20px;
+    display:block;
+    text-align: left;
+    width: 140px;
+    list-style: none;
+}
+
+.gen li a:hover {
+    background-color:#434343;
+}
+
+.gen li ul {
+    display:none;
+    position:absolute;
+    z-index: 1;
+    min-width:140px;
+}
+
+.gen li:hover > ul {
+    display:block;
+}
+
+
+/*video*/
+
+.vid{
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    display: block;
+}

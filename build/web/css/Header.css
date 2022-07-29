@@ -1,0 +1,146 @@
+.fondo{
+    background-color: #062749;
+    background-size: 100%;
+    position: inherit;
+}
+.fondoheader{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: #000000;
+    z-index: 5;
+}
+.logotipo{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right:0px ;
+    height: 60px;
+    float: left;
+    cursor: pointer;
+}
+.uls{
+    float: left;
+    padding:15px;
+    padding-bottom: 0px;
+}
+li {
+    display: inline;
+}
+li a{
+    color: white;
+    line-height: 0px;
+    text-decoration: none;
+    font-size: x-large;
+    margin-right:20px;
+}
+li a:hover{
+    color: gray;
+    text-decoration: none;
+}   
+li a.active {
+    color: gray;
+}
+.search{
+    margin: 20px;
+    margin-right: 0px;
+}
+.lupa{
+    width: 30px;
+    float: left;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 0px;
+}
+.log_user{
+    float: left;
+    width: 25px;
+    margin-right: 0px;
+    margin: 15px;
+}
+.flecha{
+    position: relative;
+    margin: 10px;
+    margin-left: 4px;
+    margin-right: 0px;
+}
+.flecha li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+    padding-left: 10px;
+    display:block;
+    text-align: left;
+    width: 200px;
+    list-style: none;
+}
+.flecha li ul{
+    display:none;
+    position:absolute;
+    z-index: 2;
+    min-width:140px;
+}
+.flecha li a:hover {
+    background-color:#434343;
+}
+
+.flecha li:hover > ul {
+    display: block;
+}
+
+
+/*ya esto no es del header*/
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0%;
+}
+.contenedor{
+    max-width: 50%;
+    margin: 25%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+hr{
+    width: 85%;
+}
+.descripcion{
+    width: 20%;
+}
+.redes{
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+.titulo_footer{
+    text-align: unset;
+}
+a p{
+    color: white;
+    text-decoration: none;
+}
+a p:hover{
+    color: gray;
+}
+.redes img{
+    width: 30px;
+    height: 30px; 
+    float: right;
+}
+
+.img_footer{
+    height: 25px;
+    widows: 25px;
+}

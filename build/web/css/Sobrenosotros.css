@@ -1,0 +1,18 @@
+
+* {
+    box-sizing: border-box;}
+.h2{
+float: left;
+}
+
+.p{
+    margin-left: 50px;
+}
+.c-image{
+    overflow: hidden;
+    float: left;
+}
+.informaciongeneral, h1, h2, h3, li, p, a{
+    color: white;
+}
+

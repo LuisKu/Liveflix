@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;}
+.h2{
+    color: white;
+float: left;
+}
+.br{
+clear: both;
+}
+.p{
+    margin-left: 50px;
+    color: white;
+}
+.c-image{
+    overflow: hidden;
+    border-radius:50%;
+}
+.c-image{
+    float: left;
+}
+.image{
+    overflow: hidden;
+    border-radius: 5%;
+
+}
+.preguntas{
+z-index: -50px;
+}
+aside {
+    font-size: 14px;
+    color: white;
+    width: 30%;
+    padding:10px 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    float: right;
+    background-color:#5e8cb9;
+    display: block;
+  }
+  .preguntas, h1, h2, h3, li, p, a{
+      color: white;
+  }

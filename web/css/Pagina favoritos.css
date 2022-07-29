@@ -1,0 +1,85 @@
+
+.contenedorheader{
+    width: auto;
+    height: 100%;
+    background-color: black;
+    
+}
+.contenedordefavoritos{
+    margin-top: 3%;
+    width: auto;
+    height: 60%;
+    background-color:#062749;
+}
+.contenedorvideos{
+    width: 90%;
+    background-color: #062749;
+}
+.miniaturasfav{
+    width: 330px;
+    height: 180px;
+    padding: 10px;
+    float: left;
+}
+.contenido{
+    font-family: Sunflower;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.fondo{
+    background-color: #062749;
+    margin: 0px;
+}
+h1{
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.contenedorusuario{
+    width: auto;
+    height: 10%;
+    background-color: rgb(32, 40, 112);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 1%;
+}
+.titulodemipag{
+    font-family: Sunflower;
+    color: white;
+    font-size: 30px;
+    font-weight: 100px;
+    float: left;
+    padding: 10px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.iconousuario{
+    margin-left: 1%;
+    width: 5%;
+    height: 5%;
+    float: left;
+}
+.genero{
+    font-family: Sunflower;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+#removerbtn{
+    width: 35%;
+    margin-left: 33%;
+    
+}
+
+
+.row-content{
+ padding: 25px 0px; 
+}
